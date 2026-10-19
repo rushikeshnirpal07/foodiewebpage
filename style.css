@@ -1,0 +1,218 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fffaf5;
+    color: #333;
+}
+
+header {
+    background: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+sub{
+    font-size: 10px;
+}
+header h2 {
+    color: #ff5722;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #ff5722;
+}
+
+.hero, #menu{
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("food-back2.jpg") center/cover no-repeat;
+}
+
+.hero {
+    background: #ff5722;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff5722;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.hero .btn {
+    background: white;
+    color: #ff5722;
+}
+
+#menu, #about, #contact {
+    padding: 50px 8%;
+    text-align: center;
+}
+
+#menu h2, #about h2, #contact h2 {
+    color: #ff5722;
+    margin-bottom: 25px;
+}
+
+.foods {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.food {
+    background: white;
+    padding: 25px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ddd;
+}
+
+/* .food:hover {
+    transform: translateY(-5px);
+} */
+
+.emoji {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.food p {
+    margin: 12px 0;
+    color: #666;
+}
+
+.food h3 {
+    margin-bottom: 10px;
+}
+
+#about {
+    background: white;
+}
+
+#about p, #contact p {
+    line-height: 1.8;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Login Page */
+
+.login-box {
+    background: white;
+    width: 350px;
+    max-width: 90%;
+    margin: 70px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #ddd;
+}
+
+.login-box h1 {
+    text-align: center;
+    color: #ff5722;
+    margin-bottom: 20px;
+}
+
+.login-box h2,
+.login-box > p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.login-box label {
+    display: block;
+    margin: 12px 0 5px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #e64a19;
+}
+
+.login-box .signup {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-box a {
+    color: #ff5722;
+}
+
+.login-box .back {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+/* order from  */
+
+
+.login-box select,
+.login-box textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.login-box textarea {
+    height: 80px;
+    resize: vertical;
+}
